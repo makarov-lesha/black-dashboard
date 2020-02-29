@@ -46,7 +46,7 @@ class Pricing extends React.Component {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="6">
-                <h1 className="title">Pick the best plan for you</h1>
+                <h1 className="title">Be your own consultant</h1>
                 <h4 className="description">
                   You have Free Unlimited Updates and Premium Support on each
                   package.

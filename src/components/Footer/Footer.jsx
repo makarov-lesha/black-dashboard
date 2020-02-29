@@ -29,20 +29,20 @@ class Footer extends React.Component {
         <Container fluid={this.props.fluid ? true : false}>
           <ul className="nav">
             <li className="nav-item">
-              <a className="nav-link" href="https://www.creative-tim.com">
-                Creative Tim
+              <a className="nav-link" href="https://www.calcscout24.com">
+                Calcscout24
               </a>
             </li>{" "}
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="https://www.creative-tim.com/presentation"
+                href="https://www.calcscout24.com"
               >
                 About us
               </a>
             </li>{" "}
             <li className="nav-item">
-              <a className="nav-link" href="https://blog.creative-tim.com">
+              <a className="nav-link" href="https://www.calcscout24.com">
                 Blog
               </a>
             </li>
@@ -51,7 +51,7 @@ class Footer extends React.Component {
             © {new Date().getFullYear()} made with{" "}
             <i className="tim-icons icon-heart-2" /> by{" "}
             <a href="javascript:void(0)" target="_blank">
-              Creative Tim
+              Calcscout24
             </a>{" "}
             for a better web.
           </div>

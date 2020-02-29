@@ -36,6 +36,7 @@ import Typography from "views/components/Typography.jsx";
 import Panels from "views/components/Panels.jsx";
 import Icons from "views/components/Icons.jsx";
 import Pricing from "views/pages/Pricing.jsx";
+import Welcome from "views/pages/Welcome.jsx";
 import Register from "views/pages/Register.jsx";
 import Timeline from "views/pages/Timeline.jsx";
 import User from "views/pages/User.jsx";
@@ -59,6 +60,15 @@ const routes = [
     icon: "tim-icons icon-image-02",
     state: "pagesCollapse",
     views: [
+      {
+        path: "/welcome",
+        name: "Welcome",
+        rtlName: "عالتسعير",
+        mini: "P",
+        rtlMini: "ع",
+        component: Welcome,
+        layout: "/auth"
+      },
       {
         path: "/pricing",
         name: "Pricing",

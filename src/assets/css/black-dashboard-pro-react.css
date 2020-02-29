@@ -21328,21 +21328,21 @@ Copyright (c) 2015 Daniel Eden
   position: relative;
   z-index: 1;
   box-shadow: none;
-  min-height: 400px; }
+  min-height: 200px; }
   .card-pricing .card-body {
     overflow: hidden;
     padding: 0; }
     .card-pricing .card-body .card-title {
       position: relative;
-      font-size: 5em;
+      font-size: 4em;
       font-weight: 900;
-      color: #222a42;
-      text-transform: lowercase;
-      margin-left: -5px;
+      color: #c22171;
+      text-transform: uppercase;
+      margin-left: 15px;
       z-index: 1; }
       .card-pricing .card-body .card-title.card-title-right {
         text-align: right;
-        margin-right: -5px; }
+        margin-right: 5px; }
     .card-pricing .card-body img {
       position: absolute;
       border-radius: 0.2857rem;
@@ -21353,7 +21353,7 @@ Copyright (c) 2015 Daniel Eden
     .card-pricing .card-body .card-prices .text-on-front {
       position: relative;
       z-index: 2;
-      color: rgba(255, 255, 255, 0.9);
+      color: rgba(50, 36, 88, 0.9);
       font-size: 3.6em;
       font-weight: 900;
       text-align: center; }
