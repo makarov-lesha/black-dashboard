@@ -1,89 +1,109 @@
-/*!
-
-=========================================================
-* Black Dashboard PRO React - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/black-dashboard-pro-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
-import {
-  Button,
-  Card,
-  CardBody,
-  CardFooter,
-  CardImg,
-  CardTitle,
-  ListGroupItem,
-  ListGroup,
-  Container,
-  Row,
-  Col
-} from "reactstrap";
+import { Card, CardBody, Container, Row, Col } from "reactstrap";
 
 class Welcome extends React.Component {
-  componentDidMount() {
-    document.body.classList.toggle("pricing-page");
-  }
-  componentWillUnmount() {
-    document.body.classList.toggle("pricing-page");
-  }
+  // componentDidMount() {
+  //   document.body.classList.toggle("pricing-page");
+  // }
+  // componentWillUnmount() {
+  //   document.body.classList.toggle("pricing-page");
+  // }
   render() {
     return (
       <>
         <div className="content">
           <Container>
+            <h3 className="title pl-1">Calculate it yourself</h3>
+            
             <Row>
-              <Col className="ml-auto mr-auto text-center" md="9">
-                <h1 className="title">CALCSCOUT 24</h1>
-                <h2 className="description p-3">
-                Calculate complex things easily
-                </h2>
-              </Col>
-            </Row>
-            <Row>
-              <Col lg="12" md="12">
-                <Card className="card-pricing card-primary">
-                  <CardBody>
-                    <CardTitle tag="h1">Real</CardTitle>
-                    {/* <CardImg
-                      alt="..."
-                      src={require("assets/img/card-primary.png")}
-                    /> */}
-                    {/* <ListGroup>
-                      <ListGroupItem>300 messages</ListGroupItem>
-                      <ListGroupItem>150 emails</ListGroupItem>
-                      <ListGroupItem>24/7 Support</ListGroupItem>
-                    </ListGroup> */}
-                    {/* <div className="card-prices">
-                      <h3 className="text-on-front">
-                        <span>$</span>
-                        95
-                      </h3>
-                      <h5 className="text-on-back">95</h5>
-                      <p className="plan">Professional plan</p>
-                    </div> */}
+              <Col sm="4">
+                <Card>
+                  <CardBody className="text-center text-white py-5">
+                    Your Real Estate
                   </CardBody>
-                  <CardFooter className="text-center mb-3 mt-3">
-                    <Button className="btn-round btn-just-icon" color="primary">
-                      Calculate
-                    </Button>
-                  </CardFooter>
                 </Card>
               </Col>
-              
+              <Col sm="4">
+                <Card>
+                  <CardBody className="text-center text-white py-5">
+                    Your Financing
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col sm="4">
+                <Card>
+                  <CardBody className="text-center text-white  py-5">
+                    Your Taxes
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col sm="4">
+                <Card>
+                  <CardBody className="text-center text-white  py-5">
+                    Your Something Else
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col sm="4">
+                <Card>
+                  <CardBody className="text-center text-white  py-5">
+                    Your Something Else
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col sm="4">
+                <Card>
+                  <CardBody className="text-center text-white  py-5">
+                    Your Something Else
+                  </CardBody>
+                </Card>
+              </Col>
             </Row>
-            
+
+            <CardBody>
+              <Row>
+                <Col sm="4">
+                  <h3 className="mt-5">Some Title Here</h3>
+                  <p>
+                    One morning, when Gregor Samsa woke from troubled dreams, he
+                    found himself transformed in his bed into a horrible vermin.
+                    He lay on his armour-like back, and if he lifted his head a
+                    little he could see his brown belly, slightly domed and
+                    divided by arches into stiff sections. The bedding was
+                    hardly able to cover it and seemed ready to slide off any
+                    moment.
+                  </p>
+                </Col>
+                <Col sm="4">
+                  <h3 className="mt-5">Another Title Here</h3>
+                  <p>
+                    One morning, when Gregor Samsa woke from troubled dreams, he
+                    found himself transformed in his bed into a horrible vermin.
+                    He lay on his armour-like back, and if he lifted his head a
+                    little he could see his brown belly, slightly domed and
+                    divided by arches into stiff sections. The bedding was
+                    hardly able to cover it and seemed ready to slide off any
+                    moment.
+                  </p>
+                </Col>
+                <Col sm="4">
+                  <h3 className="mt-5">Another Title Here</h3>
+                  <p>
+                    One morning, when Gregor Samsa woke from troubled dreams, he
+                    found himself transformed in his bed into a horrible vermin.
+                    He lay on his armour-like back, and if he lifted his head a
+                    little he could see his brown belly, slightly domed and
+                    divided by arches into stiff sections. The bedding was
+                    hardly able to cover it and seemed ready to slide off any
+                    moment.
+                  </p>
+                </Col>
+              </Row>
+              <br />
+            </CardBody>
+
           </Container>
         </div>
       </>

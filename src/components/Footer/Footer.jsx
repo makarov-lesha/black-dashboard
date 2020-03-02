@@ -36,13 +36,13 @@ class Footer extends React.Component {
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="https://www.calcscout24.com"
+                href="https://www.calcscout24.com/about/"
               >
                 About us
               </a>
             </li>{" "}
             <li className="nav-item">
-              <a className="nav-link" href="https://www.calcscout24.com">
+              <a className="nav-link" href="https://www.calcscout24.com/blog/">
                 Blog
               </a>
             </li>
@@ -50,10 +50,10 @@ class Footer extends React.Component {
           <div className="copyright">
             © {new Date().getFullYear()} made with{" "}
             <i className="tim-icons icon-heart-2" /> by{" "}
-            <a href="javascript:void(0)" target="_blank">
+            <a href="https://www.calcscout24.com/team/">
               Calcscout24
             </a>{" "}
-            for a better web.
+            team
           </div>
         </Container>
       </footer>
